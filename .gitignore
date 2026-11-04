@@ -1,0 +1,15 @@
+# Datos crudos: no se suben (el CSV de Oracle's Elixir pesa ~75 MB).
+# Ver README para descargarlos.
+data/raw/*
+!data/raw/.gitkeep
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Sistema / editor
+.DS_Store
+Thumbs.db
+.vscode/
