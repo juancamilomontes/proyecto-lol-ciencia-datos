@@ -36,6 +36,13 @@ proyecto-lol-ciencia-datos/
     └── informe_diagnostico.md
 ```
 
+## Resultados
+
+El diagnóstico completo está en [`reports/informe_diagnostico.md`](reports/informe_diagnostico.md). En resumen:
+
+- **Partidas profesionales:** 120.528 filas, pero son 10.044 partidas (12 filas cada una). Las variables a los 15 minutos faltan en las 820 partidas con datos parciales, que incluyen toda la LPL. Hay tipos incorrectos (`patch` decimal, `date` texto) y `year` no siempre coincide con la fecha.
+- **Partidas ranked:** 9.879 partidas sin nulos ni duplicados, pero solo con datos hasta el minuto 10, sin parche, con columnas redundantes y con valores atípicos en los wards.
+
 ## Cómo reproducir el diagnóstico
 
 ```bash
