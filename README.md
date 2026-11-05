@@ -45,9 +45,27 @@ El diagnóstico completo está en [`reports/informe_diagnostico.md`](reports/inf
 
 ## Cómo reproducir el diagnóstico
 
+Requisitos: Python 3.12 o superior (pandas 3 necesita 3.11+) y Git.
+
 ```bash
+git clone https://github.com/juancamilomontes/proyecto-lol-ciencia-datos.git
+cd proyecto-lol-ciencia-datos
 python -m venv .venv
-.venv\Scripts\activate        # Windows
-pip install -r requirements.txt
-jupyter notebook notebooks/diagnostico_calidad.ipynb
+.\.venv\Scripts\Activate.ps1          # Windows PowerShell
+# source .venv/bin/activate          # macOS / Linux
+python -m pip install -r requirements.txt
+jupyter lab
 ```
+
+1. Descarga los dos CSV (ver **Datasets**) y guárdalos en `data/raw/`.
+2. En JupyterLab abre `notebooks/diagnostico_calidad.ipynb` y ejecuta todas las celdas (*Run → Run All Cells*).
+
+`requirements.txt` se generó con `python -m pip freeze` (pandas 3.1.1, NumPy 2.5.4, JupyterLab 4.6.5). Si PowerShell bloquea la activación, ejecuta una vez `Set-ExecutionPolicy -Scope CurrentUser RemoteSigned`.
+
+## Flujo de trabajo con Git
+
+Siguiendo la guía *Proyecto práctica: entorno y cuaderno*:
+
+- `main` guarda solo versiones estables.
+- `develop` integra el trabajo; cada fase se hace en una rama `feat/*` y se integra con `git merge --no-ff`.
+- Cada versión queda marcada con un tag (`v0.1`, `v0.2`, …, `v1.0`).
