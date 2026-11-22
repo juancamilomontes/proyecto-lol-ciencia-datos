@@ -1,0 +1,12 @@
+dataset,paso,filas,columnas,nulos,memoria_mb
+profesional,0 crudo,120528,165,4976240,182.35
+profesional,1 filas de equipo,20088,165,411939,30.04
+profesional,2 columnas de inicio de partida,20088,28,20764,5.92
+profesional,3 texto y split estandarizados,20088,28,18040,5.94
+profesional,4 tipos corregidos,20088,28,18040,2.64
+profesional,5 first blood inconsistente a nulo,20088,28,18042,2.64
+profesional,6 marca de datos tempranos,20088,29,18042,2.66
+ranked,0 crudo,9879,40,0,3.16
+ranked,1 sin columnas redundantes,9879,32,0,2.53
+ranked,2 sin columnas fuera de alcance,9879,20,0,1.58
+ranked,3 tipos corregidos,9879,20,0,0.55

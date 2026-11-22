@@ -1,0 +1,8 @@
+dataset,filas,columnas,nulos,columnas_con_nulos,duplicados,memoria_mb
+pro_raw (original),120528,165,4976240,129,0,182.4
+pro_teams_clean,20088,29,18042,12,0,2.7
+pro_teams_15min,18448,29,0,0,0,2.6
+pro_games,10044,27,6562,10,0,1.5
+ranked_raw (original),9879,40,0,0,0,3.2
+ranked_teams_10min,19758,12,0,0,0,0.8
+early_game_10min,38206,10,0,0,0,1.7

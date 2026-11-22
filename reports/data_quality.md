@@ -4,7 +4,7 @@
 **Evidencia:** GA1-220501094-01-AA1-EV05 – Diagnosticar la calidad de datos: preparación, exploración y documentación
 **Fecha:** 4 de noviembre de 2026
 
-Todos los resultados de este informe salen del notebook [`notebooks/diagnostico_calidad.ipynb`](../notebooks/diagnostico_calidad.ipynb).
+Todos los resultados de este informe salen del notebook [`notebooks/data_quality.ipynb`](../notebooks/data_quality.ipynb).
 
 ## 1. Nombre del proyecto y pregunta analítica
 
