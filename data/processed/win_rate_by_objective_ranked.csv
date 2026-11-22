@@ -1,0 +1,5 @@
+objetivo,tasa_victoria_con,tasa_victoria_sin,equipos_con,diferencia_pp,source
+Torre antes del min 10,0.754,0.486,464,26.8,ranked_diamond
+Dragón antes del min 10,0.641,0.419,3576,22.2,ranked_diamond
+First blood,0.599,0.397,4987,20.2,ranked_diamond
+Heraldo antes del min 10,0.595,0.477,1857,11.8,ranked_diamond
